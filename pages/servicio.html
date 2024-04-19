@@ -32,7 +32,7 @@
                             <a class="nosotros" href="../pages/nosotros.html">Nosotros</a>
                         </li>
                         <li>
-                            <a class="tes" href="../pages/nosotros.html">Tés</a>
+                            <a class="tes" href="../pages/tes.html">Tés</a>
                         </li>
                         <li>
                             <a class="contactanos" href="../pages/contacto.html">Contactanos</a>
@@ -43,10 +43,11 @@
         </nav>
     </header>
 
-    <main class="grid-container">
-            <div class="titulo itemuno">
-                <h1>¿QUERÉS PROBAR NUESTROS BLENDS?</h1>
-                <p style="margin-top:20px; margin-bottom:0;">¡Sumate al club del té y empezá a conocer las infinitas posibilidades de combinaciones que tiene este mundo!</p>      
+    <main>
+        <section class="titulo-suscripcion">
+            <h1>¿QUERÉS PROBAR NUESTROS BLENDS?</h1>
+            <div class="parrafos">
+                <p style="margin-top:18px; margin-bottom:0;">¡Sumate al club del té y empezá a conocer las infinitas posibilidades de combinaciones que tiene este mundo!</p>      
                 <p style="margin-top:20px; margin-bottom:0;">Cada mes te llegarán a tu hogar tres creaciones de blends para que puedas disfrutar durante todo el año. Nuestros diseños son únicos y elaborados con la mejor materia prima. Trabajamos con productos orgánicos y cuidadosamente seleccionados.</p>
                 <p style="margin-top:20px; margin-bottom:10px;">Suscripción mensual del Club del Té:</p>
                 <ul>
@@ -58,15 +59,88 @@
                         <p style="margin-top:7px; margin-bottom:3px;">✓ Membresía sin costo, sólo se abonan los blends</p>
                     </li>
                 </ul>
-                <a class="boton" href="#suscripcion">Quiero suscribirme ▽</a>
             </div>
-            <div class="imagenuno itemdos"><img src="../img/tea-cup-is-surrounded-with-different-type-dried-herbs-white-backdrop.jpg" alt=""></div>
-            <div><img class="imagendos itemtres" src="../img/top-view-line-tea-cups (1).jpg" alt=""></div>
-            <div class="suscripcion itemcuatro">
-                <h2>SUSCRIPCIÓN AL CLUB DEL TÉ</h2>
-                <P class="precio">$7.900</P>
-                
+            <a class="boton" href="#suscripcion">Quiero suscribirme ▽</a>
+        </section>
+        <a name="suscripcion" id="suscripcion"></a>
+        <section class="flexsuscripcion">
+            <section class="flexsuscripciontexto">
+                <div>
+                    <h2>SUSCRIPCIÓN MENSUAL AL CLUB DEL TÉ</h2>
+                    <p>Por $ 6.900</p>
+                    <h3>Completá tus datos de facturación y envío</h3>
+                </div>
+                <section>
+                    <form class="formulario">
+                        <div class="funo">
+                            <label for="Nombre y apellido">Nombre y apellido</label>
+                            <input placeholder="Nombre y apellido" type="nombre y apellido">
+                        </div>
+                        <div class="fdos">
+                            <label for="Dirección">Dirección</label>
+                            <input placeholder="Calle y número de casa" type="Calle y número de casa">
+                        </div>
+                        <div class="ftres">
+                            <label for="Departamento, puerta, etc">N° departamento, unidad (opcional)</label>
+                            <input placeholder="N° departamento, unidad (opcional)" type="N° dep., unidad, etc">
+                        </div>
+                        <div class="fcuatro">
+                            <label for="Código postal">Código postal</label>
+                            <input placeholder="N° código postal" type="N° código postal">
+                        </div>
+                        <div class="fcinco">
+                            <label for="Localidad">Localidad</label>
+                            <input placeholder="Barrio y provincia" type="Barrio y provincia">
+                        </div>
+                        <div class="fseis">
+                            <label for="Teléfono">Teléfono</label>
+                            <input placeholder="N° teléfono" type="N° teléfono"">
+                        </div>
+                        <div class="fsiete">
+                            <label for="Correo electrónico">Correo electrónico</label>
+                            <input placeholder="Correo electrónico" type="Correo electrónico">
+                        </div>
+                    </form> 
+                </section>
+            </section>
+            <div><img class="flexsuscripcionimg" src="../img/tea-cup-is-surrounded-with-different-type-dried-herbs-white-backdrop (1).jpg" alt=""></div>
+        </section>
+        <section>
+            <div class="grid-container">
+                <h3>Tu solicitud</h3>
+                <p class="puno">Producto</p>
+                <P class="pdos">Precio</P>
+                <p class="ptres">SUSCRIPCIÓN MENSUAL AL CLUB DEL TÉ X1</p>
+                <p class="pcuatro">$ 6.900,00</p>
+                <p class="pcinco">Subtotal</p>
+                <p class="pseis">$ 6.900,00</p>
+                <p class="psiete">Envío</p>
+                <p class="pocho">Entregas en CABA y GBA: SIN CARGO</p>
+                <P class="pnueve">Total</P>
+                <p class="pdiez">$ 6.900</p>
             </div>
+        </section>
+        <section class="metododepago">
+            <h3 class="metododepagotitulo">Método de pago</h3>
+            <div class="credito">
+                <input type="radio" name="metodo de pago">
+                <i class="bi bi-credit-card"></i>
+                <label for="tarjeta de credito">Tarjeta de Crédito</label>
+            </div>
+            <div class="debito">
+                <input type="radio" name="metodo de pago">
+                <i class="bi bi-credit-card"></i>
+                <label for="tarjeta de debito">Tarjeta de Débito</label>
+            </div>
+            <div class="mercadopago">
+                <input type="radio" name="metodo de pago">
+                <img src="../img/mercado-pago-sign.svg" alt="">
+                <label for="mercado pago">Mercado Pago</label>
+            </div>
+        </section>
+        <section class="botonsuscribirse">
+            <a class="boton" href="">Suscribirme</a>
+        </section>    
     </main>
     <div class="fixed">
         <a href=""><img src="../img/whatsapp.png" alt="logo whatsapp"></a>

@@ -94,7 +94,7 @@ header nav ul li a{
 }
 
 .hero h1{
-    color: rgb(0, 0, 0);
+    color: rgb(20, 20, 20);
     background-color: rgba(255, 255, 255, 0.795);
     margin: 20px;
     margin-bottom: 30px;
@@ -242,69 +242,263 @@ header nav ul li a{
 /****----------- SUSCRIPCIÓN ------------****/
 /***----------- MAIN ------------***/
 
-.grid-container{
-    margin: 20px;
-    display: grid;
-    grid-template-rows: 750px 750px;
-    grid-template-columns: 1fr 1fr 1fr;
+.titulo-suscripcion{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/tarros-hierbas-te.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
 }
 
-.grid-container a{
-    margin-top: 3px;
-    margin-left: 25px;
-}
-
-.itemuno{
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.itemdos{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    margin-right: 90px;
+.titulo-suscripcion h1{
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.861);
+    margin: 20px 0 5px 45px;
+    padding: 10px 25px 10px 25px;
+    font-size: 25px;
+    font-weight: 400;
     border-radius: 5px;
+    display: inline-block; 
 }
 
-.itemtres{
-    transform: rotate(90deg);
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin-left: -155px;
+.titulo-suscripcion a{
+    margin: 5px 0px 1px 45px;
+}
+
+.parrafos{
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.861);
+    margin: 3px 50px 3px 45px;
+    padding: 1px 25px 1px 25px;
+    font-size: 16px;
     border-radius: 5px;
-}
-
-.itemcuatro{
-    grid-column-start: 2;
-    grid-column-end: 4;
+    display: inline-block; 
 }
 
 .lista-suscripcion{
     list-style: none;
 }
 
-.titulo{
-    margin-left: 5px;
+.flexsuscripcion{
+    display: inline-block; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 75px 0 25px 0;
+    flex-wrap: wrap;
 }
 
-.titulo h1{
-    margin-top: 10px;
-    margin-left: 25px;
+.flexsuscripciontexto{
+    display: flex;
+    flex-direction: column;
+    border: 1px rgba(0, 0, 0, 0.233) solid;
+    border-radius: 5px;
+    margin: 0;
+    padding: 55px 55px 25px 55px;
+}
+
+.flexsuscripciontexto h2{
+    color: rgb(20, 20, 20);
     font-size: 25px;
+    font-weight: 400;
+    display: inline-block; 
+}
+
+.flexsuscripciontexto p{
+    color: rgb(20, 20, 20);
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 1px;
+    background-color: rgba(247, 247, 247, 0.861);
+    border-radius: 5px;
+}
+
+.flexsuscripciontexto h3{
+    color: rgb(20, 20, 20);
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 65px;
+}
+
+.funo{
+    margin: 30px 0 30px 0;
+}
+
+.fdos{
+    margin: 30px 0 30px 0;
+}
+
+.ftres{
+    margin: 30px 0 30px 0;
+}
+
+.fcuatro{
+    margin: 30px 0 30px 0;
+}
+
+.fcinco{
+    margin: 30px 0 30px 0;
+}
+
+.fseis{
+    margin: 30px 0 30px 0;
+}
+
+.fsiete{
+    margin: 30px 0 30px 0;
+}
+
+.flexsuscripcionimg{
+    border-radius: 5px;
+    height: 725px;
+    width: 518px;
+    flex-wrap: wrap;
+}
+.grid-container{
+    flex-wrap: wrap;
+    border: 1px rgba(0, 0, 0, 0.233) solid;
+    border-radius: 5px;
+    padding: 30px 55px 20px 55px;
+    margin-left: 60px;
+    width: 90.5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 55px);
+    gap: 5px;
+    grid-template-areas:
+    "titulo titulo" 
+    "subtitulo subtitulodos"
+    "producto productodos"
+    "subtotal subtotaldos"
+    "envio enviodos"
+    "total totaldos";
+}
+
+.grid-container h3{
+    grid-area: titulo;
+    color: rgb(20, 20, 20);
+    font-size: 25px;
+    font-weight: 400;
+    background-color: rgba(247, 247, 247, 0.861);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.puno{
+    grid-area: subtitulo;
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+}
+
+.pdos{
+    grid-area: subtitulodos;
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+}
+
+.ptres{
+    grid-area: producto;
     color: rgb(20, 20, 20);
 }
 
-.titulo p{
-    margin-top: 40px;
-    margin-left: 25px;
-    margin-bottom: 25px;
-    font-size: 16px;
+.pcuatro{
+    grid-area: productodos;
     color: rgb(20, 20, 20);
 }
 
-.imagenuno{
-    width: 300px;
-    margin-left: 2px;
+.pcinco{
+    grid-area: subtotal;
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+}
+
+.pseis{
+    grid-area: subtotaldos;
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+}
+.psiete{
+    grid-area: envio;
+    color: rgb(20, 20, 20);
+}
+
+.pocho{
+    grid-area: enviodos;
+    color: rgb(20, 20, 20);
+}
+
+.pnueve{
+    grid-area: total;
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+}
+
+.pdiez{
+    grid-area: totaldos;
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+}
+
+.metododepago{
+    border: 1px rgba(0, 0, 0, 0.233) solid;
+    border-radius: 5px;
+    padding: 30px 55px 20px 55px;
+    margin: 30px 60px 30px 60px;
+    flex-wrap: wrap;
+}
+
+.metododepagotitulo{
+    color: rgb(20, 20, 20);
+    font-size: 25px;
+    font-weight: 400;
+    background-color: rgba(247, 247, 247, 0.861);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.credito{
+    color: rgb(20, 20, 20);
+    font-size: 18px;
+    margin: 20px 0 15px 0;
+}
+
+.debito{
+    color: rgb(20, 20, 20);
+    font-size: 18px;
+    margin: 15px 0 15px 0;
+}
+
+.mercadopago{
+    color: rgb(20, 20, 20);
+    font-size: 18px;
+    margin: 15px 0 15px 0;
+}
+
+.mercadopago img{
+    width: 35px;
+    height: 23px;
+    flex-wrap: wrap;
+}
+
+.debito i{
+    color: rgb(20, 20, 20);
+    margin: 0 8px 0 8px;
+}
+
+.credito i{
+    color: rgb(20, 20, 20);
+    margin: 0 8px 0 8px;
+}
+
+.botonsuscribirse{
+    margin-left: 60px;
+    margin-bottom: 60px;
+    display: inline-block;
 }
 .tes div{
     border: 1px rgba(0, 0, 0, 0.233) solid;
@@ -428,5 +622,199 @@ footer i{
     
     .logo{
         margin-left: 28px;
+    }
+}
+
+
+/**----------- media query suscripción ------------**/
+
+@media screen and (max-width: 1017px){
+    .titulo-suscripcion{
+        height: 550px;
+        flex-wrap: wrap;
+    }
+
+    .flexsuscripcionimg{
+        display: none;
+    }
+
+    .flexsuscripcion{
+        align-items: center;
+        margin: 75px 55px 25px 55px;
+        flex-wrap: wrap;
+    }
+
+    .grid-container{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .metododepago{
+        width: 80%;
+        flex-wrap: wrap;
+    }
+}    
+
+@media screen and (max-width: 739px){
+    .titulo-suscripcion{
+        height: 600px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 676px){
+    .flexsuscripciontexto h2{
+        font-size: 22px;
+    }
+    
+    .flexsuscripciontexto p{
+        font-size: 22px;
+    }
+    
+    .flexsuscripciontexto h3{
+        font-size: 20px;
+    }
+
+    .grid-container h3{
+        font-size: 22px;
+    }
+    
+    .metododepagotitulo{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 621px){
+    .flexsuscripciontexto h2{
+        font-size: 20px;
+    }
+    
+    .flexsuscripciontexto p{
+        font-size: 20px;
+    }
+    
+    .flexsuscripciontexto h3{
+        font-size: 18px;
+    }
+
+    .grid-container h3{
+        font-size: 20px;
+    }
+    
+    .metododepagotitulo{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 585px){
+
+    .titulo-suscripcion{
+        height: 650px;
+        flex-wrap: wrap;
+    }
+
+    .titulo-suscripcion h1{
+        font-size: 18px;
+    }
+
+    .flexsuscripciontexto h2{
+        font-size: 18px;
+    }
+    
+    .flexsuscripciontexto h3{
+        font-size: 16px;
+    }
+
+    .flexsuscripcion{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .grid-container{
+        grid-template-rows: repeat(6, 85px);
+        width: 90%;
+        margin-left: 20px;
+    }  
+
+    .grid-container h3{
+        font-size: 18px;
+    }
+
+    .metododepago{
+        width: 90%;
+        margin-left: 20px;
+    }    
+
+    .metododepagotitulo{
+        font-size: 18px;
+    }
+
+    .botonsuscribirse{
+        margin-left: 30px;
+        margin-bottom: 60px;
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 515px){
+    .titulo-suscripcion{
+        height: 700px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 487px){
+    .titulo-suscripcion{
+        height: 750px;
+        flex-wrap: wrap;
+    }
+
+    .flexsuscripcion{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .grid-container{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .metododepago{
+        width: 100%;
+        margin-left: 0px;
+    }  
+}
+
+@media screen and (max-width: 415px){
+
+    .titulo-suscripcion{
+        height: 850px;
+        flex-wrap: wrap;
+    }
+
+    .titulo-suscripcion h1{
+        font-size: 16px;
+    }
+    .flexsuscripciontexto h2{
+        font-size: 16px;
+    }
+    
+    .flexsuscripciontexto p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 371px){
+    .titulo-suscripcion{
+        height: 900px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 359px){
+    .titulo-suscripcion{
+        height: 950px;
+        flex-wrap: wrap;
     }
 }
