@@ -254,7 +254,7 @@ header nav ul li a{
 }
 
 .titulo-suscripcion h1{
-    color: rgb(20, 20, 20);
+    color: #141414;
     background-color: rgba(255, 255, 255, 0.861);
     margin: 20px 0 5px 45px;
     padding: 10px 25px 10px 25px;
@@ -269,7 +269,7 @@ header nav ul li a{
 }
 
 .parrafos{
-    color: rgb(20, 20, 20);
+    color: #141414;
     background-color: rgba(255, 255, 255, 0.861);
     margin: 3px 50px 3px 45px;
     padding: 1px 25px 1px 25px;
@@ -300,14 +300,14 @@ header nav ul li a{
 }
 
 .flexsuscripciontexto h2{
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-size: 25px;
     font-weight: 400;
     display: inline-block; 
 }
 
 .flexsuscripciontexto p{
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-size: 25px;
     font-weight: 400;
     margin-top: 10px;
@@ -317,7 +317,7 @@ header nav ul li a{
 }
 
 .flexsuscripciontexto h3{
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-size: 22px;
     font-weight: 400;
     margin-top: 65px;
@@ -379,7 +379,7 @@ header nav ul li a{
 
 .grid-container h3{
     grid-area: titulo;
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-size: 25px;
     font-weight: 400;
     background-color: rgba(247, 247, 247, 0.861);
@@ -390,56 +390,56 @@ header nav ul li a{
 
 .puno{
     grid-area: subtitulo;
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-weight: 500;
 }
 
 .pdos{
     grid-area: subtitulodos;
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-weight: 500;
 }
 
 .ptres{
     grid-area: producto;
-    color: rgb(20, 20, 20);
+    color: #141414;
 }
 
 .pcuatro{
     grid-area: productodos;
-    color: rgb(20, 20, 20);
+    color: #141414;
 }
 
 .pcinco{
     grid-area: subtotal;
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-weight: 500;
 }
 
 .pseis{
     grid-area: subtotaldos;
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-weight: 500;
 }
 .psiete{
     grid-area: envio;
-    color: rgb(20, 20, 20);
+    color: #141414;
 }
 
 .pocho{
     grid-area: enviodos;
-    color: rgb(20, 20, 20);
+    color: #141414;
 }
 
 .pnueve{
     grid-area: total;
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-weight: 500;
 }
 
 .pdiez{
     grid-area: totaldos;
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-weight: 500;
 }
 
@@ -452,7 +452,7 @@ header nav ul li a{
 }
 
 .metododepagotitulo{
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-size: 25px;
     font-weight: 400;
     background-color: rgba(247, 247, 247, 0.861);
@@ -462,19 +462,19 @@ header nav ul li a{
 }
 
 .credito{
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-size: 18px;
     margin: 20px 0 15px 0;
 }
 
 .debito{
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-size: 18px;
     margin: 15px 0 15px 0;
 }
 
 .mercadopago{
-    color: rgb(20, 20, 20);
+    color: #141414;
     font-size: 18px;
     margin: 15px 0 15px 0;
 }
@@ -486,12 +486,12 @@ header nav ul li a{
 }
 
 .debito i{
-    color: rgb(20, 20, 20);
+    color: #141414;
     margin: 0 8px 0 8px;
 }
 
 .credito i{
-    color: rgb(20, 20, 20);
+    color: #141414;
     margin: 0 8px 0 8px;
 }
 
@@ -500,37 +500,270 @@ header nav ul li a{
     margin-bottom: 60px;
     display: inline-block;
 }
-.tes div{
-    border: 1px rgba(0, 0, 0, 0.233) solid;
-    width: 490px;
+
+/****----------- NOSOTROS ------------****/
+/***----------- MAIN ------------***/
+
+.titulo{
+    width: 100%;
+    height: 395px;
+    background-image: url(../img/tea-cup-is-surrounded-with-different-type-dried-herbs-white-backdrop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
+.titulo h1{
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.861);
+    border-radius: 5px;
+    padding: 20px 30px 20px 30px;
+    margin: 30px 45px 15px 45px;
+    font-size: 25px;
+    font-weight: 400;
+    display: inline-block; 
+}
+
+.tituloparrafos{
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.861);
+    border-radius: 5px;
+    padding: 20px 30px 20px 30px;
+    margin: 15px 50px 3px 45px;
+    font-size: 16px;
+    display: inline-block; 
+}
+
+/****----------- CONTACTANOS ------------****/
+/***----------- MAIN ------------***/
+
+.main-contacto{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/tea2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
+
+.consultanos h1{
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.861);
+    border-radius: 5px;
+    padding: 20px 30px 20px 30px;
+    margin: 30px 45px 20px 45px;
+    font-size: 25px;
+    font-weight: 400;
+    display: inline-block; 
+    
+}
+
+.consultanos p{
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.861);
+    border-radius: 5px;
+    padding: 20px 30px 20px 30px;
+    margin: 0px 45px 30px 45px;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block; 
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.758);
+    border-radius: 5px;
+    padding: 30px 55px 20px 55px;
+    margin: 20px 45px 40px 45px;
+    color: rgb(20, 20, 20);
+    flex-wrap: wrap;
+    display: inline-block; 
+  
+}
+
+.form-correo{
+    margin: 20px;
+    flex-wrap: wrap;
+
+}
+
+.form-mensaje{
+    margin: 20px;
+    flex-wrap: wrap;
+
+}
+
+.reset{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 14px;
+    margin: 20px 40px 20px 40px;
+    display: inline-block;
+    border-radius: 55px;
+    font-weight: 400;
+}
+
+.submit{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    display: inline-block;
+    border-radius: 55px;
+    font-weight: 400;
+}
+
+/****----------- TÉS ------------****/
+/***----------- MAIN ------------***/
+
+.titulo-tes{
+    width: 100%;
     height: 400px;
+    background-image: url(../img/tea-cup-is-surrounded-with-different-type-dried-herbs-white-backdrop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
+.titulo-tes h1{
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.861);
+    border-radius: 5px;
+    padding: 20px 30px 20px 30px;
+    margin: 45px 45px 15px 45px;
+    font-size: 25px;
+    font-weight: 400;
+    display: inline-block; 
+}
+
+.titulo-tes-parrafos{
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.861);
+    border-radius: 5px;
+    padding: 20px 30px 20px 30px;
+    margin: 15px 50px 3px 45px;
+    font-size: 16px;
+    display: inline-block; 
+}
+
+.tes-seccion{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;   
+}
+
+.primera{
+    width: 520px;
+    height: 280px;
     padding: 25px;
-    margin-top: 40px;
-    margin-left: 25px;
-    margin-bottom: 50px;
+    margin: 40px 50px 40px 50px;
+    border-radius: 5px;
+    background-image: url(../img/tea1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
 }
 
-.tes div img{
-    width: 490px;
-    height: 250px;
-}
-
-.tes div h2{
+.primera h2{
     color:rgb(20, 20, 20);
-    font-size: 32px;
-    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 5px; 
 }
 
-.tes div p{
+.primera p{
     color:rgb(20, 20, 20);
     font-size: 16px;
-    margin-bottom: 15px;
+    padding: 16px;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 5px; 
 }
 
-.fotoservicio img{
-    width: 100%;
-    height: 700px;
+.atardecer{
+    width: 520px;
+    height: 280px;
+    padding: 25px;
+    margin: 40px 50px 40px 50px;
+    border-radius: 5px;
+    background-image: url(../img/tea2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 }
+
+.atardecer h2{
+    color:rgb(20, 20, 20);
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 5px;
+}
+
+.atardecer p{
+    color:rgb(20, 20, 20);
+    font-size: 16px;
+    padding: 16px;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 5px; 
+}
+
+.abrazo{
+    width: 520px;
+    height: 280px;
+    padding: 25px;
+    margin: 40px 50px 40px 50px;
+    border-radius: 5px;
+    background-image: url(../img/tea3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.abrazo h2{
+    color:rgb(20, 20, 20);
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 5px;
+}
+
+.abrazo p{
+    color:rgb(20, 20, 20);
+    font-size: 16px;
+    padding: 16px;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 5px; 
+}
+
+
 
 .fixed img{
     width: 60px;
@@ -566,6 +799,8 @@ footer i{
 
 /**----------- media query index ------------**/
 
+/**---------- media query index -----------**/
+
 @media screen and (max-width: 565px) {
     .hero h1{
         margin: 15px;
@@ -584,7 +819,7 @@ footer i{
 }
 
 @media screen and (max-width: 466px) {
-    .hero h1{
+    .hero h1 {
         margin: 10px;
         margin-bottom: 20px;
         padding: 20px;
@@ -626,12 +861,16 @@ footer i{
 }
 
 
-/**----------- media query suscripción ------------**/
+/**------- media query club del té --------**/
 
-@media screen and (max-width: 1017px){
+@media screen and (max-width: 1027px){
     .titulo-suscripcion{
         height: 550px;
         flex-wrap: wrap;
+    }
+
+    .flexsuscripciontexto{
+        margin: 15px 55px 25px 55px;
     }
 
     .flexsuscripcionimg{
@@ -642,179 +881,202 @@ footer i{
         align-items: center;
         margin: 75px 55px 25px 55px;
         flex-wrap: wrap;
-    }
+    } 
+}
 
-    .grid-container{
-        flex-wrap: wrap;
-        width: 80%;
-    }
-
-    .metododepago{
-        width: 80%;
-        flex-wrap: wrap;
-    }
-}    
-
-@media screen and (max-width: 739px){
+@media screen and (max-width: 796px){
     .titulo-suscripcion{
-        height: 600px;
+        height: 590px;
         flex-wrap: wrap;
     }
-}
 
-@media screen and (max-width: 676px){
+    .flexsuscripciontexto{
+        margin: 15px 0px 25px 0px;
+    }
+
     .flexsuscripciontexto h2{
         font-size: 22px;
     }
-    
-    .flexsuscripciontexto p{
-        font-size: 22px;
-    }
-    
-    .flexsuscripciontexto h3{
-        font-size: 20px;
-    }
-
-    .grid-container h3{
-        font-size: 22px;
-    }
-    
-    .metododepagotitulo{
-        font-size: 22px;
-    }
 }
 
-@media screen and (max-width: 621px){
-    .flexsuscripciontexto h2{
-        font-size: 20px;
-    }
-    
-    .flexsuscripciontexto p{
-        font-size: 20px;
-    }
-    
-    .flexsuscripciontexto h3{
-        font-size: 18px;
-    }
-
-    .grid-container h3{
-        font-size: 20px;
-    }
-    
-    .metododepagotitulo{
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 585px){
-
+@media screen and (max-width: 796px){
     .titulo-suscripcion{
-        height: 650px;
+        height: 620px;
         flex-wrap: wrap;
-    }
-
-    .titulo-suscripcion h1{
-        font-size: 18px;
     }
 
     .flexsuscripciontexto h2{
         font-size: 18px;
     }
-    
+
     .flexsuscripciontexto h3{
         font-size: 16px;
-    }
-
-    .flexsuscripcion{
-        width: 90%;
-        margin-left: 20px;
     }
 
     .grid-container{
         grid-template-rows: repeat(6, 85px);
-        width: 90%;
-        margin-left: 20px;
-    }  
-
-    .grid-container h3{
-        font-size: 18px;
     }
-
-    .metododepago{
-        width: 90%;
-        margin-left: 20px;
-    }    
-
-    .metododepagotitulo{
-        font-size: 18px;
-    }
-
-    .botonsuscribirse{
-        margin-left: 30px;
-        margin-bottom: 60px;
-        display: inline-block;
-    }
-
 }
 
-@media screen and (max-width: 515px){
+@media screen and (max-width: 589px){
+    .titulo-suscripcion h1 {
+        font-size: 18px;
+    }
     .titulo-suscripcion{
-        height: 700px;
+        height: 670px;
         flex-wrap: wrap;
     }
 }
 
-@media screen and (max-width: 487px){
-    .titulo-suscripcion{
-        height: 750px;
-        flex-wrap: wrap;
-    }
 
-    .flexsuscripcion{
-        width: 100%;
-        margin-left: 0px;
+@media screen and (max-width: 516px){
+    .titulo-suscripcion{
+        height: 800px;
+        flex-wrap: wrap;
     }
 
     .grid-container{
-        width: 100%;
-        margin-left: 0px;
+        grid-template-rows: repeat(6, 95px);
+        width: 80%;
     }
-    
+
+    .flexsuscripcion{
+        width: 98%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .grid-container{
+        grid-template-rows: repeat(6, 85px);
+        width: 98%;
+        margin-left: 5px;
+        margin-right: 5px;
+    } 
+
     .metododepago{
-        width: 100%;
-        margin-left: 0px;
-    }  
+        width: 98%;
+        margin-left: 5px;
+        margin-right: 5px;
+    } 
 }
 
-@media screen and (max-width: 415px){
-
-    .titulo-suscripcion{
-        height: 850px;
-        flex-wrap: wrap;
-    }
-
-    .titulo-suscripcion h1{
-        font-size: 16px;
-    }
-    .flexsuscripciontexto h2{
-        font-size: 16px;
-    }
-    
-    .flexsuscripciontexto p{
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 371px){
+@media screen and (max-width: 411px){
     .titulo-suscripcion{
         height: 900px;
         flex-wrap: wrap;
     }
 }
 
-@media screen and (max-width: 359px){
+@media screen and (max-width: 378px){
     .titulo-suscripcion{
         height: 950px;
         flex-wrap: wrap;
+    }
+    
+}
+
+/**------- media querys nosotros --------**/
+
+@media screen and (max-width: 944px){
+    .titulo{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width: 622px){
+    .titulo{
+        height: 700px;
+        flex-wrap: wrap;
+    }
+
+    .titulo h1{
+        font-size: 18px;
+    }
+
+    .titulo p{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 404px){
+    .titulo{
+        height: 800px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 369px){
+    .titulo{
+        height: 870px;
+        flex-wrap: wrap;
+    }
+}
+
+/**------- media querys tés --------**/
+
+@media screen and (max-width: 1239px){
+    .tes-seccion{
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media screen and (max-width: 655px){
+    .titulo-tes{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+
+    .titulo-tes h1{
+        font-size: 18px;
+    }
+
+    .titulo-tes p{
+        font-size: 16px;
+    }
+
+    .primera h2{
+        font-size: 18px;
+    }
+
+    .atardecer h2{
+        font-size: 18px;
+    }
+
+    .abrazo h2{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 422px){
+    .titulo-tes {
+        height: 620px;
+        flex-wrap: wrap; 
+    }
+}
+
+/**------- media querys contactanos --------**/
+
+@media screen and (max-width: 517px){
+
+    form {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    .form-correo{
+        margin-left: -20px;
+        margin-right: 5px;
+        width: 80%;
+    }
+
+    .form-mensaje{
+        margin-left: -20px;
+        margin-right: 5px;
+        width: 80%;
     }
 }

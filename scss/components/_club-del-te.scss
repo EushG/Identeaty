@@ -1,0 +1,239 @@
+//------main club del té--------//
+
+//--------variables-----------//
+
+$color-primario: #141414;
+$color-fondo: rgba(255, 255, 255, 0.861);
+$espaciado-chico: 8px;
+$espaciado-grande: 60px;
+
+.titulo-suscripcion {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/tarros-hierbas-te.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+
+    h1 {
+        color: $color-primario;
+        background-color: $color-fondo;
+        margin: $espaciado-chico 0 5px 45px;
+        padding: 10px 25px;
+        font-size: 25px;
+        font-weight: 400;
+        border-radius: 5px;
+        display: inline-block; 
+    }
+
+    a {
+        margin: 5px 0 1px 45px;
+    }
+}
+
+.parrafos {
+    color: $color-primario;
+    background-color: $color-fondo;
+    margin: 3px $espaciado-grande $espaciado-chico 45px;
+    padding: $espaciado-chico 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block; 
+
+    p {
+        margin-top: $espaciado-chico;
+        margin-bottom: 0;
+    }
+}
+
+.lista-suscripcion {
+    list-style: none;
+}
+
+.flexsuscripcion {
+    display: inline-block; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 75px 0 25px 0;
+    flex-wrap: wrap;
+}
+
+.flexsuscripciontexto {
+    display: flex;
+    flex-direction: column;
+    border: 1px rgba(0, 0, 0, 0.233) solid;
+    border-radius: 5px;
+    margin: 0;
+    padding: $espaciado-grande;
+}
+
+.flexsuscripciontexto h2 {
+    color: $color-primario;
+    font-size: 25px;
+    font-weight: 400;
+    display: inline-block; 
+}
+
+.flexsuscripciontexto p {
+    color: $color-primario;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: $espaciado-chico;
+    padding: 1px;
+    background-color: rgba(247, 247, 247, 0.861);
+    border-radius: 5px;
+}
+
+.flexsuscripciontexto h3 {
+    color: $color-primario;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 65px;
+}
+
+.funo, .fdos, .ftres, .fcuatro, .fcinco, .fseis, .fsiete {
+    margin: 28px 0;
+}
+
+.flexsuscripcionimg {
+    border-radius: 5px;
+    height: 725px;
+    width: 518px;
+    flex-wrap: wrap;
+}
+
+.grid-container {
+    flex-wrap: wrap;
+    border: 1px rgba(0, 0, 0, 0.233) solid;
+    border-radius: 5px;
+    padding: $espaciado-grande;
+    margin-left: $espaciado-grande;
+    width: calc(100% - #{$espaciado-grande * 2});
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 55px);
+    gap: 5px;
+    grid-template-areas:
+    "titulo titulo" 
+    "subtitulo subtitulodos"
+    "producto productodos"
+    "subtotal subtotaldos"
+    "envio enviodos"
+    "total totaldos";
+
+    h3 {
+        grid-area: titulo;
+        color: $color-primario;
+        font-size: 25px;
+        font-weight: 400;
+        background-color: rgba(247, 247, 247, 0.861);
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .puno {
+        grid-area: subtitulo;
+        color: $color-primario;
+        font-weight: 500;
+    }
+
+    .pdos {
+        grid-area: subtitulodos;
+        color: $color-primario;
+        font-weight: 500;
+    }
+
+    .ptres {
+        grid-area: producto;
+        color: $color-primario;
+    }
+
+    .pcuatro {
+        grid-area: productodos;
+        color: $color-primario;
+    }
+
+    .pcinco {
+        grid-area: subtotal;
+        color: $color-primario;
+        font-weight: 500;
+    }
+
+    .pseis {
+        grid-area: subtotaldos;
+        color: $color-primario;
+        font-weight: 500;
+    }
+
+    .psiete {
+        grid-area: envio;
+        color: $color-primario;
+    }
+
+    .pocho {
+        grid-area: enviodos;
+        color: $color-primario;
+    }
+
+    .pnueve {
+        grid-area: total;
+        color: $color-primario;
+        font-weight: 500;
+    }
+
+    .pdiez {
+        grid-area: totaldos;
+        color: $color-primario;
+        font-weight: 500;
+    }
+}
+
+.metododepago {
+    border: 1px rgba(0, 0, 0, 0.233) solid;
+    border-radius: 5px;
+    padding: $espaciado-grande;
+    margin: $espaciado-grande;
+    flex-wrap: wrap;
+
+    .metododepagotitulo {
+        color: $color-primario;
+        font-size: 25px;
+        font-weight: 400;
+        background-color: rgba(247, 247, 247, 0.861);
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .credito, .debito, .mercadopago {
+        color: $color-primario;
+        font-size: 18px;
+        margin: $espaciado-chico 0 15px 0;
+        display: flex;
+        align-items: center;
+
+        input {
+            margin-right: $espaciado-chico;
+        }
+
+        i {
+            margin: 0 $espaciado-chico 0 $espaciado-chico;
+        }
+    }
+
+    .mercadopago img {
+        width: 35px;
+        height: 23px;
+        flex-wrap: wrap;
+    }
+}
+
+.botonsuscribirse {
+    margin-left: $espaciado-grande;
+    margin-bottom: $espaciado-grande;
+    margin-top: -30px;
+    display: inline-block;
+}

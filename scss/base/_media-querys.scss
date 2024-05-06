@@ -1,0 +1,281 @@
+/**---------- media query index -----------**/
+
+@media screen and (max-width: 565px) {
+    .hero h1{
+        margin: 15px;
+        margin-bottom: 25px;
+        padding: 25px;
+        font-size: 25px;
+        font-weight: 400;
+        border-radius: 5px; 
+    }
+    .fixed img{
+        right: 35px;
+    } 
+    footer i{
+        font-size: 30px;
+    }    
+}
+
+@media screen and (max-width: 466px) {
+    .hero h1 {
+        margin: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 400;
+        border-radius: 5px; 
+    }
+    .boton{
+        font-size: 16px;
+        margin: 8px;
+        padding: 16px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    .bienvenida h2{
+        font-size: 25px;
+    }
+
+    .fixed img{
+        width: 50px;
+        height: 50px;
+        right: 30px;
+    } 
+}
+
+@media screen and (max-width: 368px) {
+    .hero h1{
+        margin: 10px;
+        margin-bottom: 18px;
+        padding: 18px;
+        font-size: 18px;
+        font-weight: 400;
+        border-radius: 5px; 
+    }
+    
+    .logo{
+        margin-left: 28px;
+    }
+}
+
+
+/**------- media query club del té --------**/
+
+@media screen and (max-width: 1027px){
+    .titulo-suscripcion{
+        height: 550px;
+        flex-wrap: wrap;
+    }
+
+    .flexsuscripciontexto{
+        margin: 15px 55px 25px 55px;
+    }
+
+    .flexsuscripcionimg{
+        display: none;
+    }
+
+    .flexsuscripcion{
+        align-items: center;
+        margin: 75px 55px 25px 55px;
+        flex-wrap: wrap;
+    } 
+}
+
+@media screen and (max-width: 796px){
+    .titulo-suscripcion{
+        height: 590px;
+        flex-wrap: wrap;
+    }
+
+    .flexsuscripciontexto{
+        margin: 15px 0px 25px 0px;
+    }
+
+    .flexsuscripciontexto h2{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 796px){
+    .titulo-suscripcion{
+        height: 620px;
+        flex-wrap: wrap;
+    }
+
+    .flexsuscripciontexto h2{
+        font-size: 18px;
+    }
+
+    .flexsuscripciontexto h3{
+        font-size: 16px;
+    }
+
+    .grid-container{
+        grid-template-rows: repeat(6, 85px);
+    }
+}
+
+@media screen and (max-width: 589px){
+    .titulo-suscripcion h1 {
+        font-size: 18px;
+    }
+    .titulo-suscripcion{
+        height: 670px;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 516px){
+    .titulo-suscripcion{
+        height: 800px;
+        flex-wrap: wrap;
+    }
+
+    .grid-container{
+        grid-template-rows: repeat(6, 95px);
+        width: 80%;
+    }
+
+    .flexsuscripcion{
+        width: 98%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .grid-container{
+        grid-template-rows: repeat(6, 85px);
+        width: 98%;
+        margin-left: 5px;
+        margin-right: 5px;
+    } 
+
+    .metododepago{
+        width: 98%;
+        margin-left: 5px;
+        margin-right: 5px;
+    } 
+}
+
+@media screen and (max-width: 411px){
+    .titulo-suscripcion{
+        height: 900px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 378px){
+    .titulo-suscripcion{
+        height: 950px;
+        flex-wrap: wrap;
+    }
+    
+}
+
+/**------- media querys nosotros --------**/
+
+@media screen and (max-width: 944px){
+    .titulo{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width: 622px){
+    .titulo{
+        height: 700px;
+        flex-wrap: wrap;
+    }
+
+    .titulo h1{
+        font-size: 18px;
+    }
+
+    .titulo p{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 404px){
+    .titulo{
+        height: 800px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 369px){
+    .titulo{
+        height: 870px;
+        flex-wrap: wrap;
+    }
+}
+
+/**------- media querys tés --------**/
+
+@media screen and (max-width: 1239px){
+    .tes-seccion{
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media screen and (max-width: 655px){
+    .titulo-tes{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+
+    .titulo-tes h1{
+        font-size: 18px;
+    }
+
+    .titulo-tes p{
+        font-size: 16px;
+    }
+
+    .primera h2{
+        font-size: 18px;
+    }
+
+    .atardecer h2{
+        font-size: 18px;
+    }
+
+    .abrazo h2{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 422px){
+    .titulo-tes {
+        height: 620px;
+        flex-wrap: wrap; 
+    }
+}
+
+/**------- media querys contactanos --------**/
+
+@media screen and (max-width: 517px){
+
+    form {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    .form-correo{
+        margin-left: -20px;
+        margin-right: 5px;
+        width: 80%;
+    }
+
+    .form-mensaje{
+        margin-left: -20px;
+        margin-right: 5px;
+        width: 80%;
+    }
+}
