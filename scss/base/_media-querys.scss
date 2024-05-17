@@ -1,3 +1,15 @@
+/**---------- media query botones -----------**/
+
+@media screen and (max-width: 991px){
+    .boton{
+        transition: 1s;
+        &:active{
+            transform: scale(1.1);
+        }
+    }
+    
+}
+
 /**---------- media query index -----------**/
 
 @media screen and (max-width: 565px) {

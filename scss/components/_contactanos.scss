@@ -58,6 +58,15 @@
               display: inline-block;
               border-radius: 55px;
               font-weight: 400;
+              transition: 1s;
+
+              &:hover {
+                background-color: rgb(58, 58, 58);
+                border-radius: 55px;
+                font-weight: 400;
+                color: white;
+                transform: scale(1.1);
+              }
           }
 
           .submit {
@@ -69,6 +78,15 @@
               display: inline-block;
               border-radius: 55px;
               font-weight: 400;
+              transition: 1s;
+
+              &:hover {
+                background-color: rgb(58, 58, 58);
+                border-radius: 55px;
+                font-weight: 400;
+                color: white;
+                transform: scale(1.1);
+              }
           }
       }
   }

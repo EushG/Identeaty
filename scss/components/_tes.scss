@@ -59,6 +59,11 @@ $color-fondo-hover: rgba(255, 255, 255, 0.795);
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 6s;
+    
+    &:hover {
+      transform: rotateY(360deg);
+    }
 
     h2 {
       color: $color-texto;
